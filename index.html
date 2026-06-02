@@ -89,7 +89,7 @@
     <section class="player-shell">
       <div class="phone">
         <video id="video" playsinline controls poster="">
-          <source src="https://i.imgur.com/LP7ry9H.mp4" type="video/mp4" />
+          <source src="https://i.imgur.com/61uQsgM.mp4" type="video/mp4" />
           Browser kamu tidak mendukung pemutar video HTML5.
         </video>
       </div>
@@ -143,14 +143,14 @@
       var btnBatal = document.getElementById('ageBatal');
       var popupShown = false; // Biar popup gak nongol 2x pas user back
 
-      // Munculin popup 17 DETIK setelah web kebuka, cuma sekali
+      // Munculin popup 23 DETIK setelah web kebuka, cuma sekali
       setTimeout(function(){
         if(!popupShown){
           overlay.classList.add('show');
           document.documentElement.style.overflow = 'hidden';
           popupShown = true;
         }
-      }, 17000); // 17 DETIK
+      }, 23000); // 23 DETIK
 
       // Klik LANJUT = delay 200ms biar popunder kena, terus ke directlink
       btnLanjut.onclick = function(){
